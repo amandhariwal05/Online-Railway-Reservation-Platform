@@ -1,1 +1,1 @@
-A simple website to check the status of the Indian Railways in a better way.
+The Railway Ticket Reservation System is a web-based platform that enables users to book train tickets seamlessly. It provides an intuitive interface for searching train schedules, selecting seats, and making reservations efficiently.
