@@ -1,0 +1,88 @@
+#booking-img-container {
+  height: 100vh;
+  background-image: url("/Background-Logo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#main-container {
+  display: flex;
+  justify-content: left;
+  padding-left: 35px;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+#booking-form-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 90%;
+  max-width: 560px;
+  height: auto;
+  min-height: 370px;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#booking-form-container-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.booking-input,
+#category-container {
+  width: 40%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+#lvl-1,
+#lvl-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#category-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#category-container-header {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#category-container-buttons {
+  display: none;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  top: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#category-container:hover #category-container-buttons {
+  display: block;
+}
+
+.class_button {
+  padding: 3px 0px 6px 0px;
+}

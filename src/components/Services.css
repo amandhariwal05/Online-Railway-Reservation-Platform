@@ -1,0 +1,43 @@
+.services-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 70px 30px 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.serv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px;
+  gap: 20px;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.serv img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.services-container-content-item {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.serv:hover {
+  scale: 1.2;
+}
+
+
+
+
+
