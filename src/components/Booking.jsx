@@ -59,7 +59,7 @@ const Booking = () => {
                   <div id="lvl-3-container">
                     <div>
                       <input type="checkbox" id="filterButtons"></input>
-                      <label htmlFor="filterButtons">{item}</label>
+                      <label htmlFor="filterButtons" id="labelFilterButtons">{item}</label>
                     </div>
                   </div>
                 ))}

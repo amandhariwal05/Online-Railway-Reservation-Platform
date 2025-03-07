@@ -79,6 +79,10 @@
   z-index: 1;
 }
 
+.class_button {
+  padding: 0px 0px 8px 0px;
+}
+
 #category-container:hover #category-container-buttons {
   display: block;
 }
@@ -94,6 +98,12 @@
   height: 15px;
   margin-right: 5px;
   cursor: pointer;
+}
+
+#labelFilterButtons {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.8px;
+  font-size: medium;
 }
 
 #searchButtonDiv {
