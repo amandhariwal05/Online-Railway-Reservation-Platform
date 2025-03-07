@@ -2,6 +2,12 @@ import React from "react";
 import { IoIosArrowDropdown } from "react-icons/io";
 import "./Booking.css";
 
+const filterButtons = [
+  "Railway Pass Concession",
+  "Flexible with Date",
+  "Train with avaliable Berth",
+];
+
 const Booking = () => {
   return (
     <div>
@@ -46,6 +52,21 @@ const Booking = () => {
                     <p className="class_button">Sleeper Class</p>
                     <p className="class_button">Second Sitting</p>
                   </div>
+                </div>
+              </div>
+              <div id="lvl-3">
+                {filterButtons.map((item, index) => (
+                  <div id="lvl-3-container">
+                    <div>
+                      <input type="checkbox" id="filterButtons"></input>
+                      <label htmlFor="filterButtons">{item}</label>
+                    </div>
+                  </div>
+                ))}
+                <div id="searchButtonDiv">
+                  <button id="searchButton">
+                    <h4>Search</h4>
+                  </button>
                 </div>
               </div>
             </div>

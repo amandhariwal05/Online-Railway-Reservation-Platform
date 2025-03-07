@@ -83,6 +83,32 @@
   display: block;
 }
 
-.class_button {
-  padding: 3px 0px 6px 0px;
+#lvl-3-container {
+  display: flex;
+  padding-bottom: 5px;
+  flex-direction: column;
+}
+
+#filterButtons {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#searchButtonDiv {
+  cursor: pointer;
+}
+
+#searchButton {
+  all: unset;
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 6rem;
+  background-color: #0d0c22;
+  border-radius: 9999px; 
 }
