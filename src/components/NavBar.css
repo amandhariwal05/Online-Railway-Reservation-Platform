@@ -54,7 +54,7 @@
 }
 
 .navbar-link:hover, #signup-button:hover, #login-button a:hover {
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 #navbar-links {

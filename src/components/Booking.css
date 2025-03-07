@@ -110,5 +110,13 @@
   height: 3rem;
   width: 6rem;
   background-color: #0d0c22;
-  border-radius: 9999px; 
+  border-radius: 9999px;
+}
+
+#searchButton h4 {
+  transition: all 0.25s ease;
+}
+
+#searchButton h4:hover {
+  transform: scale(1.12);
 }
