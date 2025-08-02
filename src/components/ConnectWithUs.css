@@ -1,0 +1,59 @@
+.social-connect-container-content img {
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-connect-container-content {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding-left: 1.56rem;
+}
+
+.social-connect-container-content img:hover {
+  transform: scale(1.2);
+}
+
+.social-connect-container {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 64rem) {
+  .social-connect-container {
+    margin-left: 0;
+    padding: 2.5rem;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .social-connect-container-content {
+    gap: 1.88rem;
+    padding: 1.38rem 0 0 0;
+  }
+
+  .social-connect-container {
+    padding: 1.88rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .social-connect-container-content {
+    gap: 1.25rem;
+    padding-left: 0.63rem;
+  }
+
+  .social-connect-container-content img {
+    width: 2.19rem;
+    height: 2.19rem;
+  }
+
+  .social-connect-container {
+    padding: 1.25rem;
+  }
+}

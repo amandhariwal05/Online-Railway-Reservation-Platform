@@ -1,0 +1,65 @@
+body {
+  padding: 0.7rem 2rem 0.7rem 2rem;
+}
+
+a {
+  display: inline-block;
+  font-weight: var(--font-weight-links);
+  color: var(--primary-text-color);
+  transition: all 0.2s ease-in-out;
+}
+
+#login-button a {
+  display: inline;
+  color: var(--primary-button-text-color);
+}
+
+#navbar-links a:hover {
+  transform: scale(var(--links-transform-scale));
+}
+
+#signup-button a:hover {
+  transform: scale(var(--links-transform-scale));
+}
+
+#Animated-logo {
+  height: 5rem;
+}
+
+#navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-link {
+  padding: 0px 1.5rem 0rem 1.5rem;
+}
+
+#navbar-links {
+  padding-left: 1rem;
+}
+
+#navbar-login-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 2rem;
+}
+
+#login-button {
+  all: unset;
+  cursor: pointer;
+  padding: 0.7rem 1.4rem;
+  color: var(--primary-button-text-color);
+  font-weight: var(--font-weight-links);
+  background-color: var(--primary-button-color);
+  box-shadow: 3px 3px 7px #00000030;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 0.5rem;
+}
+
+#login-button:hover {
+  background-color: var(--primary-button-hover-color);
+  transform: scale(var(--primary-button-hover-scale));
+}

@@ -1,0 +1,21 @@
+.under-development-background {
+  height: 70vh;
+  background-image: url("/Background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.under-development-div {
+  display: flex;
+  place-self: center;
+  height: 200px;
+  width: 700px;
+}
+
+.under-development-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
